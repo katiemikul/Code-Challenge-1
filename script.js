@@ -11,6 +11,7 @@ function changeTheDiv(){
     console.log('Changing the div function');
     $('.appendTheDiv').empty();
     $('.appendTheDiv').append("Changing the div!").val('');
+    $('.appendTheDiv').css('background-color', 'red');
     countingTheClicks();
 }
 
