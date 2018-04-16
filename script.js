@@ -5,7 +5,6 @@ console.log('JQuery is ready!');
 function onReady(){
 console.log('JQuery is loaded');
 $('.generateButton').on('click', changeTheDiv);
-$('.appendTheDiv').css('background-color', 'red');
 addingButtons();
 }
 
@@ -24,6 +23,7 @@ function countingTheClicks(){
         clickCounter++;
         $("#countingThings").append('<p id="countingThings">Number of clicks:' +clickCounter+ '</p>');
         });
+        addingButtons();
 }
 
 function addingButtons(){
